@@ -1,0 +1,142 @@
+form{
+    width:65%;
+    margin-top:80px;
+    margin-right:10px;
+    padding-left: 50px;
+}
+body{
+    background-image: url(apartment.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column; /* creates rows out of the elements main and footer */
+    height: 200vh; 
+    margin:0;
+}
+.links{
+    margin-left:100px;
+}
+div.dashboardMainContainer{
+
+  display: flex;
+  flex-direction: row;
+  
+}
+
+div.leftcontainer{
+    width:100%;
+    margin-top:50px;
+    margin-left:10px;
+    padding-right: 30px;
+
+}
+div.users table, th, td, tr{
+  border: 1px solid black;
+  border-collapse: collapse;
+  
+}
+table{
+  width:100%
+}
+table td{
+  font-size: 15px;
+  text-align: center;
+  background-color: #f4f6f9;
+}
+table td{
+  font-size: 13px;
+  border-width: 3px;
+}
+table td h6{
+  font-size: 18px;
+  text-align: center;
+  color: rgb(143, 8, 82);
+}
+
+form h2{
+  color: rgb(255, 205, 238);
+}
+
+div.leftcontainer h2{
+  color: rgb(151, 38, 113);
+}
+form a{
+  color: rgb(97, 9, 68);
+  font-weight: bold;
+}
+
+div.leftcontainer tr a{
+  color: rgb(36, 107, 173);
+  font-weight: bold;
+}
+
+div.leftcontainer a{
+  color: rgb(104, 12, 76);
+  font-weight: bold;
+}
+h1{
+  color: rgb(228, 122, 196);
+}
+div.col h3{
+  color: rgb(235, 143, 212);
+}
+div.lftcontainer{
+  width:100%;
+  margin-top:80px;
+  margin-left:10px;
+  padding-right: 30px;
+
+}
+div.lftcontainer a{
+  color: white;
+  font-weight: bold;
+}
+
+div.container button {
+ color: black;
+}
+
+div.container button span:after{
+
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+
+}
+
+div.container button:hover span{
+
+  padding-right: 25px;
+
+}
+
+div.container button:hover span:after{
+
+  opacity: 1;
+  right: 0;
+
+}
+
+header {
+
+  background-image: url(b.jpg) ;
+  background-size: cover;
+  height: 50vh;
+}
+
+header h1{
+
+  color: black;
+  font-weight: bolder;
+  font-size: 200px;
+  
+  
+}
+
+header img{
+  margin-top: 50px;
+}
